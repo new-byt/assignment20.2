@@ -1,0 +1,59 @@
+.header {
+  background-color: rgb(50, 168, 237);
+}
+.active {
+  background-color: rgb(116, 196, 242);
+}
+
+.white {
+  background-color: white;
+}
+
+.border {
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border: 1px solid black;
+  border-radius: 5rem;
+  font-size: large;
+  color: black;
+}
+
+.row {
+  align-items: center;
+  padding: 0;
+  margin: auto;
+}
+
+.img {
+  border-radius: 50%;
+}
+
+.bodyPadding {
+  padding: 5rem;
+  padding-top: 5rem;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(50, 168, 237);
+  color: white;
+  text-align: center;
+}
+
+.footerPadding {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.col {
+  text-align: center;
+}
