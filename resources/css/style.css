@@ -1,14 +1,19 @@
 .header {
   background-color: rgb(50, 168, 237);
+  z-index: 1; /* Makes the header the first layer so others don't overlap */
 }
+
+/* Changes background colour of selected tab*/
 .active {
   background-color: rgb(116, 196, 242);
 }
 
+/* Default tab colour */
 .white {
   background-color: white;
 }
 
+/* Adds borders */
 .border {
   padding: 1rem;
   padding-left: 2rem;
@@ -25,20 +30,27 @@
   margin: auto;
 }
 
+/* Changes the logo to make it spherical */
 .img {
   border-radius: 50%;
 }
 
+/* Adds some padding to elements in the body */
 .bodyPadding {
   padding: 5rem;
   padding-top: 5rem;
 }
+
+/* Center */
+
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 80%;
 }
+
+/* Fixed footer */
 .footer {
   position: fixed;
   left: 0;
@@ -49,6 +61,7 @@
   text-align: center;
 }
 
+/* Padding for footer elements */
 .footerPadding {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -56,4 +69,17 @@
 
 .col {
   text-align: center;
+}
+
+/* Adds padding for each item in the gallery */
+.gallery {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+/* Makes the header "sticky" */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
